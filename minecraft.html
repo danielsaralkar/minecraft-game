@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MineCraft Game</title>
+		<meta charset="utf-8" />
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<link rel="icon" href="./images/logo.png" type="image/png">
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+         <link rel="stylesheet" href="css/animate.css">   
+	</head>	
+	<body>
+		<div class="landingpage">
+		<img class="pulse animated infinite" src="./images/Minecraftlogo.png" alt=""><br>
+	        <button class="enter" data-text="ENTER">ENTER</button> 
+	        <div id="loadInst" class="inst">INSTRUCTIONS</div>
+	        <div class="banner" id="instDiv">
+	            <button id="instButt">X</button>
+	            <ol>
+	                <li>Press "ENTER"</li>
+	                <li>Pick a tool from the toolbar to remove the corresponding block type</li>
+	                <li>Rebuild the landscape the way you want it</li>
+	                <li>ENJOY !</li>
+	            </ol>	              
+	        </div>
+        </div>	
+		<div id="container">
+	        <div id="toolbar">
+	        </div>
+	        
+			<div id="game">
+			</div>
+	        <div id="NewGameAndLevel">
+	            <button id="newGame">New Game</button>
+	        </div>
+		</div>
+	<script src="./JavaScript/main.js"></script>
+	</body>
+</html>

@@ -1,1 +1,1 @@
-# minecraft-game
+# Minecraft Game
